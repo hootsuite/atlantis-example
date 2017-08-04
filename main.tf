@@ -1,2 +1,2 @@
-resource "null_resource" "testing" {
+resource "null_resource" "foobar" {
 }
