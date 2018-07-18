@@ -1,0 +1,10 @@
+version: 2
+projects:
+- name: project1
+  dir: environment/development/us-east-1/project1
+  workspace: default
+  terraform_version: v0.11.7
+  autoplan:
+    when_modified: ["*.tf"]
+    enabled: true
+    #  apply_requirements: [approved]
